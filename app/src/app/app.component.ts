@@ -13,12 +13,12 @@ export class AppComponent implements OnInit{
     {
       title: 'Home',
       url: '/tabs',
-      icon: 'home'
+      icon: 'home-outline'
     },
     {
       title: 'Pricing',
-      url: '/pricing',
-      icon: 'mail'
+      url: '/tabs/pricing',
+      icon: 'logo-euro'
     }
   ];
   constructor() {
